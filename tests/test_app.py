@@ -41,7 +41,7 @@ def test_calendario_da_horta_atualiza_fichas_e_totais():
     assert [item.value for item in app.subheader][:6] == [
         "Cenoura", "Tomate", "Alface", "Hortelã", "Rabanete", "Rúcula",
     ]
-    assert len(app.get("image")) == 5
+    assert len(app.get("image")) == 6
     assert "Etapa atual: Colheita" in textos
     assert "Confirmado · Equipe de alimentação confirmou cenoura no arroz com legumes." in textos
     assert "Confirmado · Produtor confirmou cenoura na composição da cesta." in textos

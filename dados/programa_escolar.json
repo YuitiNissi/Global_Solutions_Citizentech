@@ -9,7 +9,7 @@
     "tomate": {"nome": "Tomate", "imagem": "tomate.jfif", "atividade": "Compare a cor e o tamanho de dois tomates e desenhe o que observou."},
     "alface": {"nome": "Alface", "imagem": "alface.webp", "atividade": "Observe o formato das folhas e compare as bordas de duas variedades."},
     "hortela": {"nome": "Hortelã", "imagem": "hortela.webp", "atividade": "Observe o aroma de uma folha de hortelã e descreva o que ele lembra."},
-    "rabanete": {"nome": "Rabanete", "ciclo_curto": true, "atividade": "Marque no calendário o dia da semeadura e o dia em que apareceram as primeiras folhas."},
+    "rabanete": {"nome": "Rabanete", "imagem": "rabanete.jfif", "ciclo_curto": true, "atividade": "Marque no calendário o dia da semeadura e o dia em que apareceram as primeiras folhas."},
     "rucula": {"nome": "Rúcula", "imagem": "Rucula-Hidroponica.webp", "ciclo_curto": true, "atividade": "Desenhe a mesma muda em dois dias diferentes para comparar o crescimento."}
   },
   "safras": {

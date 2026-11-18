@@ -1,6 +1,19 @@
 # Horta Viva
 
-Protótipo acadêmico de educação sobre alimentação consciente, cultivo sustentável e hortas escolares. Na Etapa 1, o assistente consulta 18 orientações armazenadas localmente em JSON. Cada orientação publicada tem uma referência e uma data de consulta.
+Protótipo acadêmico desenvolvido para a Global Solution Citizen Tech da FIAP. O Horta Viva reúne um assistente educativo com fontes verificadas, missões de cultivo em turma e um calendário que mostra às famílias como os alimentos aprendidos na horta podem chegar à merenda e às cestas.
+
+## Por que escolhemos a horta escolar
+
+A Global Solution Citizen Tech propõe usar tecnologia para responder a necessidades concretas das pessoas, entre elas o acesso à alimentação. Escolhemos a escola porque ela oferece um ponto de partida próximo das crianças e das famílias. Uma atividade de colheita pode virar uma conversa sobre a origem dos alimentos, e a família pode acompanhar pelo calendário o que a turma cultivou, o que está previsto no cardápio e o que o produtor confirmou. [Global Solution Citizen Tech — FIAP](https://experience.fiap.com.br/global-solution-citizen-tech)
+
+O protótipo transforma essa ideia em ações concretas. O assistente ajuda a responder dúvidas com referências, as missões orientam a prática com acompanhamento do professor, e o calendário distingue o cultivo da turma, a safra regional e a oferta comunicada pelos produtores. O painel mostra totais mensais de participação, refeições com ingredientes locais e retiradas de cestas, sem expor dados individuais das famílias.
+
+## Relação com políticas públicas
+
+- **Programa Nacional de Alimentação Escolar (PNAE).** O programa apoia a oferta de alimentação na rede pública e promove ações de educação alimentar e nutricional. O FNDE também orienta a compra direta da agricultura familiar com, no mínimo, 45% dos recursos federais que repassa ao PNAE. A horta e as missões exploram a dimensão educativa. No calendário, o exemplo da cenoura mostra como a escola pode comunicar o cultivo pedagógico e o uso confirmado na merenda, com a disponibilidade do produtor registrada separadamente. [PNAE e segurança alimentar — FNDE](https://www.gov.br/fnde/pt-br/assuntos/noticias/pnae-integra-conjunto-de-acoes-voltadas-a-seguranca-alimentar) · [Agricultura Familiar no PNAE — FNDE](https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/agricultura-familiar-pnae)
+- **Programa de Aquisição de Alimentos (PAA).** O programa é uma referência complementar para entender como compras da agricultura familiar podem ampliar o acesso a alimentos. O Horta Viva usa cestas subsidiadas como cenário fictício para demonstrar a comunicação de disponibilidade e retirada. A pontuação das turmas é independente desse cenário. [Programa de Aquisição de Alimentos — MDS](https://www.gov.br/mds/pt-br/acoes-e-programas/acesso-a-alimentos-e-a-agua/programa-de-aquisicao-de-alimentos)
+
+PNAE e PAA são referências para a proposta acadêmica. O aplicativo demonstra o fluxo com dados simulados, e a execução das políticas cabe aos órgãos responsáveis.
 
 ## Instalação e execução
 
