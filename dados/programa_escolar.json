@@ -1,0 +1,72 @@
+{
+  "demonstracao": true,
+  "escola": {
+    "nome": "Escola Horta Viva",
+    "regiao": "São Paulo (SP)"
+  },
+  "alimentos": {
+    "cenoura": {"nome": "Cenoura", "imagem": "cenoura.jfif", "atividade": "Desenhe a cenoura com as folhas e indique qual parte cresce sob a terra."},
+    "tomate": {"nome": "Tomate", "imagem": "tomate.jfif", "atividade": "Compare a cor e o tamanho de dois tomates e desenhe o que observou."},
+    "alface": {"nome": "Alface", "imagem": "alface.webp", "atividade": "Observe o formato das folhas e compare as bordas de duas variedades."},
+    "hortela": {"nome": "Hortelã", "imagem": "hortela.webp", "atividade": "Observe o aroma de uma folha de hortelã e descreva o que ele lembra."},
+    "rabanete": {"nome": "Rabanete", "ciclo_curto": true, "atividade": "Marque no calendário o dia da semeadura e o dia em que apareceram as primeiras folhas."},
+    "rucula": {"nome": "Rúcula", "imagem": "Rucula-Hidroponica.webp", "ciclo_curto": true, "atividade": "Desenhe a mesma muda em dois dias diferentes para comparar o crescimento."}
+  },
+  "safras": {
+    "São Paulo (SP)": {
+      "cenoura": "Outubro a dezembro",
+      "tomate": "Novembro a fevereiro",
+      "alface": "Setembro a novembro",
+      "hortela": "Outubro a março",
+      "rabanete": "Agosto a novembro",
+      "rucula": "Setembro a dezembro"
+    }
+  },
+  "meses": {
+    "2026-10": {
+      "horta": {
+        "cenoura": {"etapa": "Cuidado", "proxima_atividade": "2º ano: acompanhar o crescimento das folhas e registrar as observações."},
+        "rabanete": {"etapa": "Plantio", "proxima_atividade": "Pré II: semear e marcar a data no calendário da turma."},
+        "rucula": {"etapa": "Plantio", "proxima_atividade": "3º ano: identificar as primeiras mudas com plaquinhas."}
+      },
+      "produtor": {"cenoura": "A confirmar", "rabanete": "Lote disponível na última semana de outubro."},
+      "merenda": {
+        "cenoura": {"status": "Previsto", "uso": "Cenoura ralada na salada."},
+        "rabanete": {"status": "Previsto", "uso": "Rabanete fatiado na salada."}
+      },
+      "cestas": {"cenoura": {"status": "Previsto"}},
+      "atividades_realizadas": ["2º ano", "Pré II", "2º ano"],
+      "refeicoes_locais_servidas_por_dia": {"2026-10-14": 65, "2026-10-29": 55},
+      "familias_unicas_com_retirada_subsidiada": 8
+    },
+    "2026-11": {
+      "horta": {
+        "cenoura": {"etapa": "Colheita", "proxima_atividade": "2º ano: comparar as raízes colhidas com os desenhos feitos durante o cultivo."},
+        "tomate": {"etapa": "Cuidado", "proxima_atividade": "3º ano: observar flores e frutos nas plantas."},
+        "alface": {"etapa": "Colheita", "proxima_atividade": "Pré II: comparar as folhas colhidas."},
+        "hortela": {"etapa": "Cuidado", "proxima_atividade": "1º ano: observar as folhas e sentir seu aroma."},
+        "rabanete": {"etapa": "Colheita", "proxima_atividade": "Pré II: comparar a data da colheita com a data da semeadura."},
+        "rucula": {"etapa": "Cuidado", "proxima_atividade": "3º ano: atualizar os desenhos das mudas."}
+      },
+      "produtor": {
+        "cenoura": "Lote de novembro confirmado pelo produtor.",
+        "tomate": "A confirmar",
+        "alface": "Lote disponível na segunda quinzena."
+      },
+      "merenda": {
+        "cenoura": {"status": "Confirmado", "uso": "Equipe de alimentação confirmou cenoura no arroz com legumes.", "data": "2026-11-17"},
+        "tomate": {"status": "Previsto", "uso": "Molho de tomate para o macarrão.", "data": "2026-11-24"},
+        "alface": {"status": "Previsto", "uso": "Salada de folhas."},
+        "hortela": {"status": "Previsto", "uso": "Suco de maracujá com hortelã.", "data": "2026-11-19"},
+        "rucula": {"status": "Previsto", "uso": "Salada de rúcula com tomate.", "data": "2026-11-26"}
+      },
+      "cestas": {
+        "cenoura": {"status": "Confirmado", "detalhe": "Produtor confirmou cenoura na composição da cesta.", "reserva_ate": "2026-11-23", "retirada": "2026-11-27"},
+        "alface": {"status": "Previsto"}
+      },
+      "atividades_realizadas": ["2º ano", "Pré II", "3º ano", "2º ano"],
+      "refeicoes_locais_servidas_por_dia": {"2026-11-10": 90, "2026-11-17": 85},
+      "familias_unicas_com_retirada_subsidiada": 12
+    }
+  }
+}

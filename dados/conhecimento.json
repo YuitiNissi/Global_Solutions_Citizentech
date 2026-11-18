@@ -1,0 +1,357 @@
+[
+  {
+    "id": "alimentacao-01",
+    "tema": "Alimentação consciente",
+    "subtema": "Alimentos in natura",
+    "palavras_chave": [
+      "in natura",
+      "minimamente processados",
+      "alimentos frescos"
+    ],
+    "perguntas_exemplo": [
+      "O que são alimentos in natura?",
+      "Quais exemplos de alimentos minimamente processados?"
+    ],
+    "resumo": "Faça dos alimentos in natura ou minimamente processados a base das refeições.",
+    "resposta": "Frutas e hortaliças frescas são exemplos de alimentos in natura. Arroz, feijão seco e aveia sem ingredientes adicionados são exemplos de alimentos minimamente processados.",
+    "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
+    "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "alimentacao-02",
+    "tema": "Alimentação consciente",
+    "subtema": "Ultraprocessados",
+    "palavras_chave": [
+      "ultraprocessado",
+      "ultraprocessados",
+      "refrigerante",
+      "biscoito recheado"
+    ],
+    "perguntas_exemplo": [
+      "Como reconhecer alimentos ultraprocessados?",
+      "O refrigerante é ultraprocessado?"
+    ],
+    "resumo": "Observe a lista de ingredientes e prefira preparações culinárias.",
+    "resposta": "Refrigerantes e biscoitos recheados são exemplos de ultraprocessados. Listas com vários ingredientes de uso principalmente industrial, como aromatizantes e corantes, ajudam a reconhecer essa categoria.",
+    "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
+    "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "alimentacao-03",
+    "tema": "Alimentação consciente",
+    "subtema": "Planejamento de refeições",
+    "palavras_chave": [
+      "planejar refeições",
+      "planejamento",
+      "cardápio semanal",
+      "lista de compras"
+    ],
+    "perguntas_exemplo": [
+      "Como planejar as refeições da semana?",
+      "Como organizar o cardápio semanal?"
+    ],
+    "resumo": "Reserve tempo para organizar compras e refeições.",
+    "resposta": "Antes de comprar, confira o que já tem em casa e pense em pratos que pode preparar ao longo da semana. Use esse planejamento para montar a lista e divida as tarefas de compra e preparo com quem mora com você.",
+    "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
+    "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "alimentacao-04",
+    "tema": "Alimentação consciente",
+    "subtema": "Comer com atenção",
+    "palavras_chave": [
+      "comer com atenção",
+      "comer devagar",
+      "distrações",
+      "telas nas refeições"
+    ],
+    "perguntas_exemplo": [
+      "Como comer com mais atenção?",
+      "Posso evitar distrações na hora de comer?"
+    ],
+    "resumo": "Escolha um ambiente tranquilo para a refeição.",
+    "resposta": "Reserve tempo para comer com calma, perceba os sabores e mantenha o foco na refeição. Quando possível, faça a refeição em companhia e deixe as telas de lado.",
+    "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
+    "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "alimentacao-05",
+    "tema": "Alimentação consciente",
+    "subtema": "Feiras e alimentos da época",
+    "palavras_chave": [
+      "feira",
+      "feiras",
+      "safra",
+      "alimentos da época",
+      "alimentos da estação"
+    ],
+    "perguntas_exemplo": [
+      "Onde comprar frutas e verduras da época?",
+      "Por que comprar alimentos da estação?"
+    ],
+    "resumo": "Explore feiras e aproveite a oferta da safra.",
+    "resposta": "Procure frutas e hortaliças em feiras, mercados e outros locais com variedade de alimentos frescos. Pergunte quais produtos estão na safra e use a resposta para variar as compras e as refeições.",
+    "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
+    "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "alimentacao-06",
+    "tema": "Alimentação consciente",
+    "subtema": "Habilidades culinárias",
+    "palavras_chave": [
+      "cozinhar",
+      "habilidades culinárias",
+      "aprender receitas"
+    ],
+    "perguntas_exemplo": [
+      "Como começar a cozinhar em casa?",
+      "Como desenvolver habilidades culinárias?"
+    ],
+    "resumo": "Pratique preparações simples e compartilhe o que aprendeu.",
+    "resposta": "Escolha uma preparação que você já gosta de comer. Peça a alguém que saiba fazê-la para ensinar, pratique e compartilhe as tarefas. Crianças podem ajudar em atividades adequadas à idade, com supervisão.",
+    "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
+    "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "cultivo-01",
+    "tema": "Cultivo sustentável",
+    "subtema": "Compostagem",
+    "palavras_chave": [
+      "compostagem",
+      "composteira",
+      "composto orgânico",
+      "restos vegetais"
+    ],
+    "perguntas_exemplo": [
+      "Como fazer compostagem?",
+      "O que posso colocar na composteira?"
+    ],
+    "resumo": "Combine resíduos vegetais crus com material seco.",
+    "resposta": "Cascas de frutas, talos e borra de café podem ser combinados com folhas secas ou palha. Mantenha a mistura úmida e arejada. Evite carnes, óleos, sobras cozidas e fezes de animais.",
+    "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
+    "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "cultivo-02",
+    "tema": "Cultivo sustentável",
+    "subtema": "Irrigação",
+    "palavras_chave": [
+      "irrigação",
+      "regar",
+      "rega",
+      "molhar a horta",
+      "gotejamento"
+    ],
+    "perguntas_exemplo": [
+      "Como regar a horta sem desperdiçar água?",
+      "Como economizar água na irrigação?"
+    ],
+    "resumo": "Direcione a água para a região das raízes.",
+    "resposta": "Observe a umidade do solo antes de regar e evite encharcar o canteiro. O gotejamento é uma opção para aplicar a água perto da planta e reduzir desperdícios.",
+    "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
+    "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "cultivo-03",
+    "tema": "Cultivo sustentável",
+    "subtema": "Cobertura do solo",
+    "palavras_chave": [
+      "cobertura morta",
+      "cobertura do solo",
+      "palhada",
+      "cobrir o canteiro"
+    ],
+    "perguntas_exemplo": [
+      "Como proteger o solo com palha?",
+      "Para que serve a cobertura morta na horta?"
+    ],
+    "resumo": "Cubra a superfície do canteiro com material vegetal seco.",
+    "resposta": "Use palha ou capim seco sobre a terra exposta para reduzir a evaporação. Distribua o material na superfície, deixando espaço onde as mudas estão crescendo.",
+    "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
+    "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "cultivo-04",
+    "tema": "Cultivo sustentável",
+    "subtema": "Local da horta",
+    "palavras_chave": [
+      "local da horta",
+      "escolher o local",
+      "luz solar",
+      "sol direto"
+    ],
+    "perguntas_exemplo": [
+      "Onde montar uma horta?",
+      "Como escolher um lugar para plantar hortaliças?"
+    ],
+    "resumo": "Considere a luz, o acesso à água e a drenagem.",
+    "resposta": "Antes de montar a horta, observe onde bate sol ao longo do dia. Dê preferência a um local iluminado, com acesso fácil à água e onde a chuva não costuma formar poças.",
+    "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
+    "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "cultivo-05",
+    "tema": "Cultivo sustentável",
+    "subtema": "Drenagem dos canteiros",
+    "palavras_chave": [
+      "drenagem",
+      "canteiro elevado",
+      "solo encharcado",
+      "poças no canteiro"
+    ],
+    "perguntas_exemplo": [
+      "Como melhorar a drenagem do canteiro?",
+      "O que fazer quando o canteiro fica encharcado?"
+    ],
+    "resumo": "Observe onde a água se acumula após a chuva.",
+    "resposta": "Em locais com muita chuva, canteiros elevados podem ajudar a água a escoar e favorecer a entrada de ar no solo. Escolha um local com boa drenagem antes de instalar os canteiros.",
+    "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
+    "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "cultivo-06",
+    "tema": "Cultivo sustentável",
+    "subtema": "Rotação de culturas",
+    "palavras_chave": [
+      "rotação",
+      "alternar culturas",
+      "alternância de hortaliças"
+    ],
+    "perguntas_exemplo": [
+      "Como fazer rotação de culturas?",
+      "Por que alternar o que cultivo no mesmo canteiro?"
+    ],
+    "resumo": "Alterne plantas de famílias diferentes entre ciclos.",
+    "resposta": "Registre o que foi plantado em cada canteiro e use esse histórico para alternar famílias botânicas no ciclo seguinte. A diversidade ajuda a reduzir o acúmulo de pragas e doenças associadas a certos cultivos.",
+    "fonte": "Embrapa — 500 Perguntas, 500 Respostas: Hortas",
+    "url_fonte": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/663403/1/500perguntashortas.pdf",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "escola-01",
+    "tema": "Educação comunitária e hortas escolares",
+    "subtema": "Matemática na horta",
+    "palavras_chave": [
+      "matemática",
+      "medir canteiros",
+      "área do canteiro"
+    ],
+    "perguntas_exemplo": [
+      "Como ensinar matemática na horta?",
+      "Que atividade de matemática posso fazer com a turma?"
+    ],
+    "resumo": "Use medições reais para trabalhar matemática.",
+    "resposta": "Peça à turma que meça os lados de um canteiro retangular e calcule sua área. Os alunos podem comparar as dimensões de diferentes canteiros e anotar as medidas em uma tabela.",
+    "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
+    "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "escola-02",
+    "tema": "Educação comunitária e hortas escolares",
+    "subtema": "Ciências na horta",
+    "palavras_chave": [
+      "ciências",
+      "observar germinação",
+      "diário de crescimento"
+    ],
+    "perguntas_exemplo": [
+      "Como usar a horta nas aulas de ciências?",
+      "Como observar o crescimento das plantas com os alunos?"
+    ],
+    "resumo": "Acompanhe o desenvolvimento de uma planta com a turma.",
+    "resposta": "Proponha observações periódicas das plantas. A turma pode registrar datas, desenhar as mudanças e comparar o que observou em cada semana.",
+    "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
+    "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "escola-03",
+    "tema": "Educação comunitária e hortas escolares",
+    "subtema": "Participação das famílias",
+    "palavras_chave": [
+      "famílias",
+      "envolver os pais",
+      "participação comunitária"
+    ],
+    "perguntas_exemplo": [
+      "Como envolver as famílias na horta escolar?",
+      "Como convidar a comunidade a participar da horta?"
+    ],
+    "resumo": "Convide as famílias a compartilhar seus conhecimentos.",
+    "resposta": "Organize uma conversa para que familiares e estudantes troquem experiências sobre o cultivo e os alimentos da região. Combine com as pessoas interessadas formas de participar dos próximos encontros.",
+    "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
+    "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "escola-04",
+    "tema": "Educação comunitária e hortas escolares",
+    "subtema": "Cuidados durante as férias",
+    "palavras_chave": [
+      "férias",
+      "recesso escolar",
+      "feriados",
+      "escala de cuidados"
+    ],
+    "perguntas_exemplo": [
+      "Quem cuida da horta nas férias escolares?",
+      "Como manter a horta durante o recesso?"
+    ],
+    "resumo": "Combine previamente quem vai acompanhar a horta.",
+    "resposta": "Antes do recesso, planeje com a equipe da escola quem poderá verificar os canteiros e cuidar da rega. Registre as responsabilidades e os dias combinados para facilitar a continuidade dos cuidados.",
+    "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
+    "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "escola-05",
+    "tema": "Educação comunitária e hortas escolares",
+    "subtema": "Educação alimentar na escola",
+    "palavras_chave": [
+      "educação alimentar",
+      "merenda",
+      "alimentação escolar",
+      "origem dos alimentos"
+    ],
+    "perguntas_exemplo": [
+      "Como ensinar alimentação usando a horta escolar?",
+      "Como relacionar a horta à alimentação escolar?"
+    ],
+    "resumo": "Use a horta para conversar sobre a origem dos alimentos.",
+    "resposta": "Convide a turma a identificar hortaliças cultivadas e reconhecer aquelas que aparecem nas refeições da escola. Conduza a conversa com a equipe de alimentação escolar e explore formas de preparo conhecidas pelos alunos.",
+    "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
+    "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
+    "data_consulta": "2026-11-17"
+  },
+  {
+    "id": "escola-06",
+    "tema": "Educação comunitária e hortas escolares",
+    "subtema": "Integração ao currículo",
+    "palavras_chave": [
+      "currículo",
+      "interdisciplinar",
+      "planejamento pedagógico"
+    ],
+    "perguntas_exemplo": [
+      "Como integrar a horta ao currículo escolar?",
+      "Como planejar um projeto interdisciplinar na horta?"
+    ],
+    "resumo": "Planeje atividades da horta com objetivos de aprendizagem.",
+    "resposta": "Reúna docentes para escolher um tema, como o crescimento das plantas. Cada disciplina pode propor uma atividade relacionada, e a turma pode reunir medidas, observações e textos em um registro comum.",
+    "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
+    "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
+    "data_consulta": "2026-11-17"
+  }
+]
