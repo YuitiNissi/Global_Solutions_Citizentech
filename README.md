@@ -284,7 +284,7 @@ Aviso: Conteúdo educativo de um protótipo acadêmico, sem vínculo com órgão
 
 ## Uso de IA
 
-O protótipo não usa IA em execução: as respostas vêm só da base local. A equipe usou o Claude (Anthropic) como apoio ao desenvolvimento, aos testes e à documentação. O registro completo, com a validação crítica, está em [docs/uso_ia.md](docs/uso_ia.md).
+O protótipo não usa IA em execução: as respostas vêm só da base local. O registro completo, com a validação crítica, está em [docs/uso_ia.md](docs/uso_ia.md).
 
 ## Conclusões, limitações e possibilidades de melhoria
 
