@@ -8,6 +8,12 @@ A Global Solution Citizen Tech propõe usar tecnologia para responder a necessid
 
 O protótipo transforma essa ideia em ações concretas. O assistente ajuda a responder dúvidas com referências, as missões orientam a prática com acompanhamento do professor, e o calendário distingue o cultivo da turma, a safra regional e a oferta comunicada pelos produtores. O painel mostra totais mensais de participação, refeições com ingredientes locais e retiradas de cestas, sem expor dados individuais das famílias.
 
+## Vídeo de apresentação
+
+Assista à apresentação do Horta Viva: [https://youtu.be/mqiYdiFOl2A](https://youtu.be/mqiYdiFOl2A)
+
+**Queremos concorrer ao pódio da Global Solution 2 (GS2).**
+
 ## Relação com políticas públicas
 
 - **Programa Nacional de Alimentação Escolar (PNAE).** O programa apoia a oferta de alimentação na rede pública e promove ações de educação alimentar e nutricional. O FNDE também orienta a compra direta da agricultura familiar com, no mínimo, 45% dos recursos federais que repassa ao PNAE. A horta e as missões exploram a dimensão educativa. No calendário, o exemplo da cenoura mostra como a escola pode comunicar o cultivo pedagógico e o uso confirmado na merenda, com a disponibilidade do produtor registrada separadamente. [PNAE e segurança alimentar — FNDE](https://www.gov.br/fnde/pt-br/assuntos/noticias/pnae-integra-conjunto-de-acoes-voltadas-a-seguranca-alimentar) · [Agricultura Familiar no PNAE — FNDE](https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/agricultura-familiar-pnae)
