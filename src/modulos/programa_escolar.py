@@ -6,8 +6,9 @@ from zoneinfo import ZoneInfo
 import streamlit as st
 
 
-ARQUIVO_PROGRAMA = Path(__file__).resolve().parents[1] / "dados" / "programa_escolar.json"
-PASTA_IMAGENS = ARQUIVO_PROGRAMA.parents[1] / "imagens"
+RAIZ = Path(__file__).resolve().parents[2]
+ARQUIVO_PROGRAMA = RAIZ / "data" / "programa_escolar.json"
+PASTA_IMAGENS = RAIZ / "assets"
 MESES = (
     "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
     "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro",

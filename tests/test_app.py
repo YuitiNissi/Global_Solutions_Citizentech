@@ -10,7 +10,12 @@ from modulos import gamificacao
 from modulos.gamificacao_ui import _prazo_semestre
 
 
-APP = Path(__file__).resolve().parents[1] / "app.py"
+APP = Path(__file__).resolve().parents[1] / "src" / "app.py"
+
+
+def _imagens(app):
+    """O Streamlit 1.57 expõe imagens como "imgs"; versões anteriores, como "image"."""
+    return [*app.get("image"), *app.get("imgs")]
 
 
 def test_fluxo_do_assistente():
@@ -30,6 +35,27 @@ def test_fluxo_do_assistente():
     assert not app.exception
 
 
+def test_assistente_navega_por_relacionados_e_sugere_assuntos():
+    app = AppTest.from_file(APP).run()
+    app.text_input[0].input("Como fazer compostagem?")
+    app.button[0].click().run()
+    assert app.subheader[0].value == "Compostagem"
+    assert any("sem vínculo com órgãos públicos" in item.value for item in app.caption)
+
+    app.button(key="consulta-cultivo-01-cultivo-03").click().run()
+    app.button(key="trilha-1-cultivo-03-cultivo-02").click().run()
+    trilha = [item.value for item in app.caption if item.value.startswith("Navegação")]
+    assert trilha == ["Navegação por assuntos relacionados: Cobertura do solo > Irrigação"]
+    assert app.subheader[0].value == "Irrigação"
+
+    app.button(key="encerrar-trilha").click().run()
+    app.text_input[0].input("Como tirar a segunda via do RG?")
+    app.button[0].click().run()
+    assert "Não encontrei uma orientação confiável" in app.info[0].value
+    assert app.button(key="sugestao-cultivo-01").label == "Compostagem"
+    assert not app.exception
+
+
 def test_calendario_da_horta_atualiza_fichas_e_totais():
     app = AppTest.from_file(APP).run()
     app.sidebar.button(key="navegacao-Programa escolar").click().run()
@@ -41,7 +67,7 @@ def test_calendario_da_horta_atualiza_fichas_e_totais():
     assert [item.value for item in app.subheader][:6] == [
         "Cenoura", "Tomate", "Alface", "Hortelã", "Rabanete", "Rúcula",
     ]
-    assert len(app.get("image")) == 6
+    assert len(_imagens(app)) == 6
     assert "Etapa atual: Colheita" in textos
     assert "Confirmado · Equipe de alimentação confirmou cenoura no arroz com legumes." in textos
     assert "Confirmado · Produtor confirmou cenoura na composição da cesta." in textos
@@ -84,7 +110,7 @@ def test_missao_enviada_confirmada_e_contabilizada_no_ranking(monkeypatch, tmp_p
     assert [item.value.split(" · ")[0] for item in app.caption if item.value.startswith("+")] == [
         "+10 pontos", "+5 pontos", "+5 pontos", "+10 pontos", "+20 pontos",
     ]
-    assert len(app.get("image")) == 5
+    assert len(_imagens(app)) == 5
     app.selectbox[2].select("compostagem").run()
     app.button[0].click().run()
     assert app.metric[0].value == "10"

@@ -1,4 +1,4 @@
 .venv/
 __pycache__/
 .pytest_cache/
-dados/progresso_gamificacao.json
+data/progresso_gamificacao.json

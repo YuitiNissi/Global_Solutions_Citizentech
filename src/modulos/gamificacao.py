@@ -6,7 +6,7 @@ from tempfile import NamedTemporaryFile
 from threading import Lock
 
 
-ARQUIVO_PROGRESSO = Path(__file__).resolve().parents[1] / "dados" / "progresso_gamificacao.json"
+ARQUIVO_PROGRESSO = Path(__file__).resolve().parents[2] / "data" / "progresso_gamificacao.json"
 TURMAS = {
     "Educação Infantil": ("Maternal", "Pré I", "Pré II"),
     "Ensino Fundamental I": tuple(f"{ano}º ano" for ano in range(1, 6)),

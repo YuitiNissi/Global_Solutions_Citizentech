@@ -2,7 +2,16 @@ import json
 
 import pytest
 
-from modulos.assistente import ErroBase, buscar, carregar_base, organizar_por_tema
+from modulos.assistente import (
+    ErroBase,
+    buscar,
+    buscar_por_id,
+    carregar_base,
+    indexar_por_id,
+    organizar_por_tema,
+    relacionados,
+    sugerir,
+)
 
 
 @pytest.fixture
@@ -96,7 +105,60 @@ def test_aceita_pendencia_mas_exclui_da_busca(tmp_path, base):
         "fonte": "Pendente de validação",
         "url_fonte": None,
         "data_consulta": None,
+        "relacionados": [],
     }
     caminho = tmp_path / "base.json"
     caminho.write_text(json.dumps([registro]), encoding="utf-8")
     assert buscar("in natura", carregar_base(caminho)).status == "fora_do_escopo"
+
+
+def test_busca_por_identificador(base):
+    assert buscar_por_id(" Cultivo-03 ", base).registros[0]["subtema"] == "Cobertura do solo"
+    assert buscar_por_id("", base).status == "vazia"
+    inexistente = buscar_por_id("cultivo-99", base)
+    assert inexistente.status == "inexistente"
+    assert len(inexistente.sugestoes) == 3
+
+
+def test_grafo_de_relacionados_permite_navegar_por_tres_assuntos(base):
+    indice = indexar_por_id(base)
+    assert all(len(relacionados(registro, indice)) == 3 for registro in base)
+    caminho = [indice["cultivo-01"]]
+    for _ in range(2):
+        caminho.append(relacionados(caminho[-1], indice)[0])
+    assert [registro["subtema"] for registro in caminho] == ["Compostagem", "Cobertura do solo", "Irrigação"]
+
+
+def test_rejeita_relacionado_inexistente(tmp_path, base):
+    caminho = tmp_path / "base.json"
+    caminho.write_text(json.dumps([base[0] | {"relacionados": ["nao-existe"]}]), encoding="utf-8")
+    with pytest.raises(ErroBase, match="inexistente"):
+        carregar_base(caminho)
+
+
+def test_rejeita_aviso_vazio(tmp_path, base):
+    caminho = tmp_path / "base.json"
+    caminho.write_text(json.dumps([base[0] | {"aviso": " ", "relacionados": []}]), encoding="utf-8")
+    with pytest.raises(ErroBase, match="aviso"):
+        carregar_base(caminho)
+
+
+def test_fora_do_escopo_sugere_assuntos(base):
+    resultado = buscar("Qual é a capital da França?", base)
+    assert {registro["tema"] for registro in resultado.sugestoes} == set(organizar_por_tema(base))
+    assert sugerir("como fazer compostajem", base)[0]["id"] == "cultivo-01"
+
+
+def test_correspondencia_aproximada_e_sinalizada(base):
+    resultado = buscar("Quero aprender a cozinhar, por onde começo?", base)
+    assert resultado.status == "encontrada" and resultado.aproximada
+    assert resultado.registros[0]["id"] == "alimentacao-06"
+    assert not buscar("Como fazer compostagem?", base).aproximada
+
+
+@pytest.mark.parametrize(
+    "pergunta",
+    ["Qual o horário da merenda na escola do meu filho?", "Como fazer o cadastro no Bolsa Família?"],
+)
+def test_palavras_do_dominio_nao_bastam_para_responder(base, pergunta):
+    assert buscar(pergunta, base).status == "fora_do_escopo"

@@ -16,7 +16,12 @@
     "resposta": "Frutas e hortaliças frescas são exemplos de alimentos in natura. Arroz, feijão seco e aveia sem ingredientes adicionados são exemplos de alimentos minimamente processados.",
     "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
     "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "alimentacao-02",
+      "alimentacao-05",
+      "escola-05"
+    ]
   },
   {
     "id": "alimentacao-02",
@@ -34,9 +39,15 @@
     ],
     "resumo": "Observe a lista de ingredientes e prefira preparações culinárias.",
     "resposta": "Refrigerantes e biscoitos recheados são exemplos de ultraprocessados. Listas com vários ingredientes de uso principalmente industrial, como aromatizantes e corantes, ajudam a reconhecer essa categoria.",
+    "aviso": "Orientação geral para a população. Necessidades individuais, como alergias, doenças ou dietas específicas, devem ser avaliadas por um profissional de saúde.",
     "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
     "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "alimentacao-01",
+      "alimentacao-06",
+      "escola-05"
+    ]
   },
   {
     "id": "alimentacao-03",
@@ -56,7 +67,12 @@
     "resposta": "Antes de comprar, confira o que já tem em casa e pense em pratos que pode preparar ao longo da semana. Use esse planejamento para montar a lista e divida as tarefas de compra e preparo com quem mora com você.",
     "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
     "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "alimentacao-05",
+      "alimentacao-06",
+      "alimentacao-04"
+    ]
   },
   {
     "id": "alimentacao-04",
@@ -76,7 +92,12 @@
     "resposta": "Reserve tempo para comer com calma, perceba os sabores e mantenha o foco na refeição. Quando possível, faça a refeição em companhia e deixe as telas de lado.",
     "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
     "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "alimentacao-06",
+      "alimentacao-03",
+      "escola-05"
+    ]
   },
   {
     "id": "alimentacao-05",
@@ -97,7 +118,12 @@
     "resposta": "Procure frutas e hortaliças em feiras, mercados e outros locais com variedade de alimentos frescos. Pergunte quais produtos estão na safra e use a resposta para variar as compras e as refeições.",
     "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
     "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "alimentacao-01",
+      "alimentacao-03",
+      "escola-03"
+    ]
   },
   {
     "id": "alimentacao-06",
@@ -114,9 +140,15 @@
     ],
     "resumo": "Pratique preparações simples e compartilhe o que aprendeu.",
     "resposta": "Escolha uma preparação que você já gosta de comer. Peça a alguém que saiba fazê-la para ensinar, pratique e compartilhe as tarefas. Crianças podem ajudar em atividades adequadas à idade, com supervisão.",
+    "aviso": "Atividades de crianças na cozinha precisam de supervisão de um adulto.",
     "fonte": "Ministério da Saúde — Guia Alimentar para a População Brasileira",
     "url_fonte": "https://bvsms.saude.gov.br/bvs/publicacoes/guia_alimentar_populacao_brasileira_2ed_atualizada.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "alimentacao-03",
+      "alimentacao-01",
+      "escola-05"
+    ]
   },
   {
     "id": "cultivo-01",
@@ -136,7 +168,12 @@
     "resposta": "Cascas de frutas, talos e borra de café podem ser combinados com folhas secas ou palha. Mantenha a mistura úmida e arejada. Evite carnes, óleos, sobras cozidas e fezes de animais.",
     "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
     "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "cultivo-03",
+      "cultivo-06",
+      "escola-02"
+    ]
   },
   {
     "id": "cultivo-02",
@@ -157,7 +194,12 @@
     "resposta": "Observe a umidade do solo antes de regar e evite encharcar o canteiro. O gotejamento é uma opção para aplicar a água perto da planta e reduzir desperdícios.",
     "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
     "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "cultivo-03",
+      "cultivo-05",
+      "escola-04"
+    ]
   },
   {
     "id": "cultivo-03",
@@ -177,7 +219,12 @@
     "resposta": "Use palha ou capim seco sobre a terra exposta para reduzir a evaporação. Distribua o material na superfície, deixando espaço onde as mudas estão crescendo.",
     "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
     "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "cultivo-02",
+      "cultivo-01",
+      "cultivo-05"
+    ]
   },
   {
     "id": "cultivo-04",
@@ -197,7 +244,12 @@
     "resposta": "Antes de montar a horta, observe onde bate sol ao longo do dia. Dê preferência a um local iluminado, com acesso fácil à água e onde a chuva não costuma formar poças.",
     "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
     "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "cultivo-05",
+      "cultivo-02",
+      "escola-01"
+    ]
   },
   {
     "id": "cultivo-05",
@@ -217,7 +269,12 @@
     "resposta": "Em locais com muita chuva, canteiros elevados podem ajudar a água a escoar e favorecer a entrada de ar no solo. Escolha um local com boa drenagem antes de instalar os canteiros.",
     "fonte": "Embrapa — Hortas Pedagógicas: Manual prático para instalação",
     "url_fonte": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1120149/1/manual-pratico-instalacao.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "cultivo-04",
+      "cultivo-02",
+      "cultivo-03"
+    ]
   },
   {
     "id": "cultivo-06",
@@ -236,7 +293,12 @@
     "resposta": "Registre o que foi plantado em cada canteiro e use esse histórico para alternar famílias botânicas no ciclo seguinte. A diversidade ajuda a reduzir o acúmulo de pragas e doenças associadas a certos cultivos.",
     "fonte": "Embrapa — 500 Perguntas, 500 Respostas: Hortas",
     "url_fonte": "https://www.infoteca.cnptia.embrapa.br/bitstream/doc/663403/1/500perguntashortas.pdf",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "cultivo-01",
+      "escola-02",
+      "cultivo-04"
+    ]
   },
   {
     "id": "escola-01",
@@ -255,7 +317,12 @@
     "resposta": "Peça à turma que meça os lados de um canteiro retangular e calcule sua área. Os alunos podem comparar as dimensões de diferentes canteiros e anotar as medidas em uma tabela.",
     "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
     "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "escola-06",
+      "escola-02",
+      "cultivo-04"
+    ]
   },
   {
     "id": "escola-02",
@@ -274,7 +341,12 @@
     "resposta": "Proponha observações periódicas das plantas. A turma pode registrar datas, desenhar as mudanças e comparar o que observou em cada semana.",
     "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
     "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "escola-06",
+      "escola-01",
+      "cultivo-06"
+    ]
   },
   {
     "id": "escola-03",
@@ -293,7 +365,12 @@
     "resposta": "Organize uma conversa para que familiares e estudantes troquem experiências sobre o cultivo e os alimentos da região. Combine com as pessoas interessadas formas de participar dos próximos encontros.",
     "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
     "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "escola-04",
+      "escola-05",
+      "alimentacao-05"
+    ]
   },
   {
     "id": "escola-04",
@@ -311,9 +388,15 @@
     ],
     "resumo": "Combine previamente quem vai acompanhar a horta.",
     "resposta": "Antes do recesso, planeje com a equipe da escola quem poderá verificar os canteiros e cuidar da rega. Registre as responsabilidades e os dias combinados para facilitar a continuidade dos cuidados.",
+    "aviso": "Combine a escala de cuidados com a direção da escola antes do recesso.",
     "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
     "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "escola-03",
+      "cultivo-02",
+      "cultivo-03"
+    ]
   },
   {
     "id": "escola-05",
@@ -331,9 +414,15 @@
     ],
     "resumo": "Use a horta para conversar sobre a origem dos alimentos.",
     "resposta": "Convide a turma a identificar hortaliças cultivadas e reconhecer aquelas que aparecem nas refeições da escola. Conduza a conversa com a equipe de alimentação escolar e explore formas de preparo conhecidas pelos alunos.",
+    "aviso": "Mudanças no cardápio da merenda são definidas pela equipe de alimentação escolar, com o nutricionista responsável.",
     "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
     "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "alimentacao-01",
+      "escola-03",
+      "alimentacao-02"
+    ]
   },
   {
     "id": "escola-06",
@@ -352,6 +441,11 @@
     "resposta": "Reúna docentes para escolher um tema, como o crescimento das plantas. Cada disciplina pode propor uma atividade relacionada, e a turma pode reunir medidas, observações e textos em um registro comum.",
     "fonte": "FNDE, WFP, FAO e ABC — Hortas escolares",
     "url_fonte": "https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas/programas/pnae/manuais-e-cartilhas/hortas-escolares-fnde-wfp-fao-abc.pdf/%40%40download/file",
-    "data_consulta": "2026-11-17"
+    "data_consulta": "2026-11-17",
+    "relacionados": [
+      "escola-01",
+      "escola-02",
+      "escola-05"
+    ]
   }
 ]

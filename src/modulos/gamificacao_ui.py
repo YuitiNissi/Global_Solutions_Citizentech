@@ -19,7 +19,7 @@ from modulos.gamificacao import (
     enviar_missao,
 )
 
-PASTA_IMAGENS = Path(__file__).resolve().parents[1] / "imagens"
+PASTA_IMAGENS = Path(__file__).resolve().parents[2] / "assets"
 
 
 def _prazo_semestre(agora):

@@ -1,0 +1,37 @@
+﻿conjunto;id;tipo;pergunta;esperado;obtido;acerto;observacao;tempo_ms
+Conjunto principal;T01;direta;Como fazer compostagem?;cultivo-01;cultivo-01 · Compostagem;acerto;;1.831
+Conjunto principal;T02;direta;O que são alimentos in natura?;alimentacao-01;alimentacao-01 · Alimentos in natura;acerto;;2.311
+Conjunto principal;T03;direta;Como ensinar matemática na horta?;escola-01;escola-01 · Matemática na horta;acerto;;2.383
+Conjunto principal;T04;direta;Como planejar as refeições da semana?;alimentacao-03;alimentacao-03 · Planejamento de refeições;acerto;;2.723
+Conjunto principal;T05;direta;Como melhorar a drenagem do canteiro?;cultivo-05;cultivo-05 · Drenagem dos canteiros;acerto;;2.578
+Conjunto principal;T06;direta;Quem cuida da horta nas férias escolares?;escola-04;escola-04 · Cuidados durante as férias;acerto;;2.377
+Conjunto principal;T07;reformulada;Qual o jeito certo de regar as plantas sem gastar muita água?;cultivo-02;Sem orientação confiável · sugeriu cultivo-02, escola-02, cultivo-04;erro;Não respondeu, mas sugeriu o assunto esperado;5.877
+Conjunto principal;T08;reformulada;Refrigerante faz parte dos ultraprocessados?;alimentacao-02;alimentacao-02 · Ultraprocessados;acerto;;2.786
+Conjunto principal;T09;reformulada;Dicas para os pais participarem da horta da escola;escola-03;Sem orientação confiável · sugeriu escola-03, escola-05, escola-01;erro;Não respondeu, mas sugeriu o assunto esperado;4.745
+Conjunto principal;T10;reformulada;Vale a pena colocar palha em cima da terra do canteiro?;cultivo-03;Sem orientação confiável · sugeriu cultivo-03, cultivo-01, cultivo-05;erro;Não respondeu, mas sugeriu o assunto esperado;5.896
+Conjunto principal;T11;reformulada;Quero aprender a cozinhar, por onde começo?;alimentacao-06;Sem orientação confiável · sugeriu alimentacao-06;erro;Não respondeu, mas sugeriu o assunto esperado;4.655
+Conjunto principal;T12;reformulada;Em que lugar devo montar a horta da escola?;cultivo-04;Sem orientação confiável · sugeriu cultivo-04, escola-05, escola-01;erro;Não respondeu, mas sugeriu o assunto esperado;4.687
+Conjunto principal;T13;reformulada;Por que trocar a família das plantas a cada ciclo no canteiro?;cultivo-06;Sem orientação confiável · sugeriu cultivo-03, cultivo-05, cultivo-06;erro;Não respondeu, mas sugeriu o assunto esperado;6.332
+Conjunto principal;T14;ambigua;Compostagem ou irrigação?;Ambígua: cultivo-01, cultivo-02;Ambígua: cultivo-02, cultivo-01;acerto;;2.184
+Conjunto principal;T15;ambigua;Feira ou cardápio semanal?;Ambígua: alimentacao-05, alimentacao-03;alimentacao-03 · Planejamento de refeições;erro;Comportamento diferente do esperado;2.040
+Conjunto principal;T16;fora_do_escopo;Qual é a capital da França?;Sem orientação confiável;Sem orientação confiável · sugeriu alimentacao-01, cultivo-01, escola-01;acerto;;3.783
+Conjunto principal;T17;fora_do_escopo;Como tirar a segunda via do RG?;Sem orientação confiável;Sem orientação confiável · sugeriu alimentacao-01, cultivo-01, escola-01;acerto;;3.522
+Conjunto principal;T18;fora_do_escopo;Qual remédio tomar para dor de cabeça?;Sem orientação confiável;Sem orientação confiável · sugeriu alimentacao-01, cultivo-01, escola-01;acerto;;4.285
+Conjunto principal;T19;fora_do_escopo;Como investir na bolsa de valores?;Sem orientação confiável;Sem orientação confiável · sugeriu alimentacao-01, cultivo-01, escola-01;acerto;;4.081
+Conjunto principal;T20;vazia;;Aviso de entrada vazia;Aviso de entrada vazia;acerto;;0.001
+Conjunto principal;T21;vazia;???;Aviso de entrada vazia;Aviso de entrada vazia;acerto;;0.002
+Conjunto principal;T22;erro_digitacao;como fazer compostajem;cultivo-01;Sem orientação confiável · sugeriu cultivo-01;erro;Não respondeu, mas sugeriu o assunto esperado;2.874
+Conjunto de validação;V01;reformulada;Que tipo de lixo da cozinha pode ir para a composteira?;cultivo-01;Sem orientação confiável · sugeriu cultivo-01, alimentacao-06;erro;Não respondeu, mas sugeriu o assunto esperado;4.673
+Conjunto de validação;V02;reformulada;Como usar menos água para molhar os canteiros?;cultivo-02;Sem orientação confiável · sugeriu cultivo-02, cultivo-05, escola-01;erro;Não respondeu, mas sugeriu o assunto esperado;5.182
+Conjunto de validação;V03;reformulada;Biscoito recheado é saudável?;alimentacao-02;alimentacao-02 · Ultraprocessados;acerto;;2.242
+Conjunto de validação;V04;reformulada;Como fazer a lista de compras do mês?;alimentacao-03;alimentacao-03 · Planejamento de refeições;acerto;;2.921
+Conjunto de validação;V05;reformulada;Comer vendo celular faz mal?;alimentacao-04;Sem orientação confiável · sugeriu alimentacao-04, alimentacao-06;erro;Não respondeu, mas sugeriu o assunto esperado;3.647
+Conjunto de validação;V06;reformulada;Que atividades de ciências dá para fazer com as plantas da escola?;escola-02;escola-02 · Ciências na horta;acerto;;4.147
+Conjunto de validação;V07;reformulada;Como trazer a comunidade para ajudar na horta?;escola-03;Sem orientação confiável · sugeriu escola-03, cultivo-02, cultivo-03;erro;Não respondeu, mas sugeriu o assunto esperado;5.361
+Conjunto de validação;V08;reformulada;Como juntar várias matérias num projeto sobre a horta?;escola-06;Sem orientação confiável · sugeriu escola-06, cultivo-02, cultivo-03;erro;Não respondeu, mas sugeriu o assunto esperado;6.186
+Conjunto de validação;V09;reformulada;O que é comida minimamente processada?;alimentacao-01;Sem orientação confiável · sugeriu alimentacao-01;erro;Não respondeu, mas sugeriu o assunto esperado;4.538
+Conjunto de validação;V10;direta;Como organizar a horta durante o recesso escolar?;escola-04;escola-04 · Cuidados durante as férias;acerto;;3.139
+Conjunto de validação;V11;ambigua;Rotação de culturas ou cobertura morta?;Ambígua: cultivo-06, cultivo-03;Ambígua: cultivo-03, cultivo-06;acerto;;2.656
+Conjunto de validação;V12;fora_do_escopo;Qual o horário da merenda na escola do meu filho?;Sem orientação confiável;Sem orientação confiável · sugeriu escola-05, escola-01, escola-02;acerto;;5.135
+Conjunto de validação;V13;fora_do_escopo;Como fazer o cadastro no Bolsa Família?;Sem orientação confiável;Sem orientação confiável · sugeriu escola-03;acerto;;4.944
+Conjunto de validação;V14;fora_do_escopo;Quanto custa um saco de adubo?;Sem orientação confiável;Sem orientação confiável · sugeriu cultivo-05;acerto;;3.788

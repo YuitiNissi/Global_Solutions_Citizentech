@@ -1,0 +1,16 @@
+[
+  {"id": "V01", "tipo": "reformulada", "pergunta": "Que tipo de lixo da cozinha pode ir para a composteira?", "esperado_status": "encontrada", "esperado_ids": ["cultivo-01"]},
+  {"id": "V02", "tipo": "reformulada", "pergunta": "Como usar menos água para molhar os canteiros?", "esperado_status": "encontrada", "esperado_ids": ["cultivo-02"]},
+  {"id": "V03", "tipo": "reformulada", "pergunta": "Biscoito recheado é saudável?", "esperado_status": "encontrada", "esperado_ids": ["alimentacao-02"]},
+  {"id": "V04", "tipo": "reformulada", "pergunta": "Como fazer a lista de compras do mês?", "esperado_status": "encontrada", "esperado_ids": ["alimentacao-03"]},
+  {"id": "V05", "tipo": "reformulada", "pergunta": "Comer vendo celular faz mal?", "esperado_status": "encontrada", "esperado_ids": ["alimentacao-04"]},
+  {"id": "V06", "tipo": "reformulada", "pergunta": "Que atividades de ciências dá para fazer com as plantas da escola?", "esperado_status": "encontrada", "esperado_ids": ["escola-02"]},
+  {"id": "V07", "tipo": "reformulada", "pergunta": "Como trazer a comunidade para ajudar na horta?", "esperado_status": "encontrada", "esperado_ids": ["escola-03"]},
+  {"id": "V08", "tipo": "reformulada", "pergunta": "Como juntar várias matérias num projeto sobre a horta?", "esperado_status": "encontrada", "esperado_ids": ["escola-06"]},
+  {"id": "V09", "tipo": "reformulada", "pergunta": "O que é comida minimamente processada?", "esperado_status": "encontrada", "esperado_ids": ["alimentacao-01"]},
+  {"id": "V10", "tipo": "direta", "pergunta": "Como organizar a horta durante o recesso escolar?", "esperado_status": "encontrada", "esperado_ids": ["escola-04"]},
+  {"id": "V11", "tipo": "ambigua", "pergunta": "Rotação de culturas ou cobertura morta?", "esperado_status": "ambigua", "esperado_ids": ["cultivo-06", "cultivo-03"]},
+  {"id": "V12", "tipo": "fora_do_escopo", "pergunta": "Qual o horário da merenda na escola do meu filho?", "esperado_status": "fora_do_escopo", "esperado_ids": []},
+  {"id": "V13", "tipo": "fora_do_escopo", "pergunta": "Como fazer o cadastro no Bolsa Família?", "esperado_status": "fora_do_escopo", "esperado_ids": []},
+  {"id": "V14", "tipo": "fora_do_escopo", "pergunta": "Quanto custa um saco de adubo?", "esperado_status": "fora_do_escopo", "esperado_ids": []}
+]

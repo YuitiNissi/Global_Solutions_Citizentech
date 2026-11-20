@@ -5,8 +5,17 @@ from pathlib import Path
 
 import streamlit as st
 
-from modulos.assistente import ErroBase, buscar, carregar_base, organizar_por_tema
+from modulos.assistente import (
+    AVISO_GERAL,
+    ErroBase,
+    buscar,
+    carregar_base,
+    indexar_por_id,
+    organizar_por_tema,
+    relacionados,
+)
 from modulos.gamificacao_ui import exibir_gamificacao
+from modulos.modelos_resposta import nota_aproximada
 from modulos.programa_escolar import exibir_programa_escolar
 
 
@@ -84,7 +93,7 @@ def selecionar_modulo():
 
 @st.cache_data(show_spinner=False)
 def carregar_imagem_de_fundo(nome):
-    caminho = Path(__file__).resolve().parent / "imagens" / nome
+    caminho = Path(__file__).resolve().parents[1] / "assets" / nome
     tipo, _ = guess_type(caminho.name)
     imagem = b64encode(caminho.read_bytes()).decode("ascii")
     return f"data:{tipo};base64,{imagem}"
@@ -123,20 +132,54 @@ def aplicar_fundo(modulo):
     )
 
 
-def exibir_orientacao(registro):
+def _abrir_assunto(identificador):
+    st.session_state.setdefault("trilha", []).append(identificador)
+
+
+def _botoes_de_assuntos(registros, contexto):
+    for coluna, item in zip(st.columns(len(registros)), registros):
+        coluna.button(
+            item["subtema"],
+            key=f"{contexto}-{item['id']}",
+            on_click=_abrir_assunto,
+            args=(item["id"],),
+        )
+    st.caption("O assunto escolhido aparece no topo da página.")
+
+
+def exibir_orientacao(registro, indice=None, contexto="consulta"):
     st.subheader(registro["subtema"])
     if registro["fonte"] == "Pendente de validação":
         st.warning("Orientação pendente de validação.")
         return
-    st.caption(registro["tema"])
+    st.caption(f"{registro['tema']} · {registro['id']}")
     st.write(registro["resumo"])
     st.write(registro["resposta"])
     consulta = date.fromisoformat(registro["data_consulta"])
     st.caption(f"Fonte consultada em {consulta:%d/%m/%Y}")
     st.link_button(registro["fonte"], registro["url_fonte"])
+    if registro.get("aviso"):
+        st.warning(registro["aviso"])
+    st.caption(AVISO_GERAL)
+    vizinhos = relacionados(registro, indice) if indice else []
+    if vizinhos:
+        st.markdown("**Continue explorando**")
+        _botoes_de_assuntos(vizinhos, f"{contexto}-{registro['id']}")
+
+
+def exibir_trilha(indice):
+    trilha = [identificador for identificador in st.session_state.get("trilha", []) if identificador in indice]
+    if not trilha:
+        return
+    with st.container(border=True):
+        st.caption("Navegação por assuntos relacionados: " + " > ".join(indice[item]["subtema"] for item in trilha))
+        exibir_orientacao(indice[trilha[-1]], indice, f"trilha-{len(trilha)}")
+        st.button("Encerrar navegação", key="encerrar-trilha", on_click=st.session_state.pop, args=("trilha", None))
 
 
 def exibir_assistente(base):
+    indice = indexar_por_id(base)
+    exibir_trilha(indice)
     pergunta, explorar = st.tabs(["Fazer uma pergunta", "Explorar por tema"])
     with pergunta:
         with st.form("formulario_assistente"):
@@ -151,7 +194,9 @@ def exibir_assistente(base):
         if "consulta" in st.session_state:
             resultado = buscar(st.session_state["consulta"], base)
             if resultado.status == "encontrada":
-                exibir_orientacao(resultado.registros[0])
+                if resultado.aproximada:
+                    st.caption(nota_aproximada(resultado.registros[0]))
+                exibir_orientacao(resultado.registros[0], indice)
             elif resultado.status == "ambigua":
                 st.info(resultado.mensagem)
                 opcoes = {registro["id"]: registro for registro in resultado.registros}
@@ -164,16 +209,19 @@ def exibir_assistente(base):
                     key=f'ambiguidade-{st.session_state["consulta"]}',
                 )
                 if escolhido is not None:
-                    exibir_orientacao(opcoes[escolhido])
+                    exibir_orientacao(opcoes[escolhido], indice)
             else:
                 st.info(resultado.mensagem)
+                if resultado.sugestoes:
+                    st.markdown("**Assuntos que você pode consultar**")
+                    _botoes_de_assuntos(resultado.sugestoes, "sugestao")
 
     with explorar:
         temas = organizar_por_tema(base)
         tema = st.selectbox("Tema", list(temas))
         subtema = st.selectbox("Subtema", list(temas[tema]), key=f"subtema-{tema}")
         for registro in temas[tema][subtema]:
-            exibir_orientacao(registro)
+            exibir_orientacao(registro, indice, "explorar")
 
 
 def main():
