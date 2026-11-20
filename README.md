@@ -251,7 +251,7 @@ Aviso: Conteúdo educativo de um protótipo acadêmico, sem vínculo com órgão
 
 **Interpretação.**
 
-1. **O assistente prefere não responder a inventar.** Perguntas diretas, vazias e fora do escopo tiveram 100% de acerto, e não houve resposta indevida em 36 perguntas. Isso vale também para "merenda" e "Bolsa Família", que usam palavras da base.
+1. Perguntas diretas, vazias e fora do escopo tiveram 100% de acerto, e não houve resposta indevida em 36 perguntas. Isso vale também para "merenda" e "Bolsa Família", que usam palavras da base.
 2. **Reformulações eram o ponto fraco.** Na rodada 1, só 1 de 7 reformulações do conjunto principal foi respondida, porque perguntas longas diluíam a cobertura das palavras-chave. A etapa 2 subiu esse número para 5 de 7 sem criar respostas indevidas. Em todas as reformulações que ainda falham, nos dois conjuntos, o assunto certo aparece entre as sugestões.
 3. **A validação é a estimativa mais realista.** O limiar foi fixado olhando só o conjunto principal. Por isso o conjunto de validação, com 71,4%, mede melhor como o assistente se sai com perguntas novas. Os erros restantes usam vocabulário que não está na base: "celular" em vez de "telas", "lixo da cozinha" em vez de "resíduos", "matérias" em vez de "disciplinas".
 4. **Os erros mostram limites conhecidos.** "Feira ou cardápio semanal?" respondeu só "Planejamento de refeições", porque a palavra-chave "cardápio semanal" domina. "compostajem", com erro de digitação, não é respondida, mas "Compostagem" aparece como primeira sugestão.
